@@ -1,0 +1,9 @@
+file = open('test.txt')
+  
+content = file.readlines()
+  
+print("tenth line")
+print(content[9])
+  
+print("first three lines")
+print(content[0:3])
