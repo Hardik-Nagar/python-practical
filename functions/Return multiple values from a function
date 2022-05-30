@@ -1,5 +1,7 @@
 def calculation(a, b):
-    # Your Code
+    addition = a + b
+    subtraction = a - b
+    return addition, subtraction
 
 res = calculation(40, 10)
 print(res)
