@@ -1,0 +1,7 @@
+with open("gfg input file.txt", "r") as input:
+      
+    with open("gfg output file.txt", "w") as output:
+          
+        # output file using loop
+        for line in input:
+            output.write(line)
